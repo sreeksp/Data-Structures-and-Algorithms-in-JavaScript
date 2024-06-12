@@ -4,6 +4,7 @@
 function chaeckRotation(stringA, stringB) {
     if(stringA.length !== stringB.length){
         return;
+        
     }
     return (stringA + stringA).indexOf(stringB) !== -1
     
